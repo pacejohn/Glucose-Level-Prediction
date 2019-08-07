@@ -5,8 +5,8 @@ The purpose of this project is to predict blood glucose levels using synthetic d
 
 Steps in the process:
 1.  Data was generated for children, adolescents, and adults using Simglucose.  The create_data.py script will generate the data.
-2.  The data was processed into a usable format for the Jupyter notebooks using process_input_files.ipynb.
-3.  For LSTM, the Jupyter notebook "glucose_lstm_GPU0.ipynb" was run to train and make predictions.  The 0 was replaced with the value for the particular GPU that was used.
+2.  The data was manually split into train and test data, then processed into a usable format for the Jupyter notebooks using process_input_files.ipynb.
+3.  For LSTM, the Jupyter notebook "glucose_lstm_GPU0.ipynb" was run to train and make predictions.  The "0" was replaced with the value for the particular GPU that was used.
 4.  For SARIMA, the Jupyter notebook "glucose_SARIMAX.ipynb" was run to train and make predictions.
 
 
